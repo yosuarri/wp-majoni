@@ -1,14 +1,13 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1671.2">
-  <style type="text/css">
-  </style>
-</head>
-<body>
-</body>
-</html>
+<?php 
+
+/*
+	FUNCIONES Y DEFINICIONES DEL TEMA
+	----------------------------------------------
+	Crear o pegar el código a continuación.
+
+	NOTAS: 
+		- No duplicar la etiqueta de apertura "<?php"
+		- No es necesaria la etiqueta de cierre "?>"
+	
+*/
+
