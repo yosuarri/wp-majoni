@@ -28,20 +28,6 @@
             <span class="bar"></span>
             <span class="bar"></span>
         </div>
-        <ul class="nav">
-            <li class="nav-item"><a href="#">Home</a></li>
-            <li class="nav-item"><a href="#">About</a></li>
-            <li class="nav-item"><a href="#">Work</a></li>
-            <li class="nav-item"><a href="#">Contact Us</a></li>
-        </ul>
-    </nav>
-    <nav class="navbar">
-        <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/majoni_logo.svg"/>
-        <div class="menu-toggle" id="mobile-menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
         <?php
         $args = array(
             'menu_class' => 'nav',
