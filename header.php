@@ -21,8 +21,10 @@
 
 <body>
 <header>
-    <nav class="navbar">
-        <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/majoni_logo.svg"/>
+    <nav class="navbar container">
+        <a href="#" class="logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/majoni_logo.svg"/>
+        </a>
         <div class="menu-toggle" id="mobile-menu">
             <span class="bar"></span>
             <span class="bar"></span>
