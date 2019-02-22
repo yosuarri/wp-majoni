@@ -21,26 +21,35 @@
 
 <body>
 <header>
-    <div class="header-wrapper">
-        <div class="header-item brand">
-            <a href="#">
-                <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/majoni-logo.svg"/>
-            </a>
+    <nav class="navbar">
+        <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/majoni_logo.svg"/>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
         </div>
-        <nav class="header-item">
-            <li class="menu fa fa-bars" aria-hidden="true">
-                <?php
-                wp_nav_menu(
-                    array(
-                        'theme_location' => 'header-menu',
-                        'menu_class'     => 'main-menu',
-                        'depth'          => 1,
-                    )
-                );
-                ?>
-            </li>
-        </nav>
-    </div>
+        <ul class="nav">
+            <li class="nav-item"><a href="#">Home</a></li>
+            <li class="nav-item"><a href="#">About</a></li>
+            <li class="nav-item"><a href="#">Work</a></li>
+            <li class="nav-item"><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    <nav class="navbar">
+        <img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/majoni_logo.svg"/>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <?php
+        $args = array(
+            'menu_class' => 'nav',
+            'menu' => 'main-menu',
+        );
+        wp_nav_menu( $args );
+        ?>
+    </nav>
 </header>
 
 
